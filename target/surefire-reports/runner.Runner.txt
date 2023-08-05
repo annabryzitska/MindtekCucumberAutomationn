@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 185.7 s <<< FAILURE! -- in runner.Runner
+Validating Search Functionality.Validating Search result matches the searched item -- Time elapsed: 18.56 s <<< FAILURE!
+java.lang.AssertionError: [Custom Neon Sign | Neon sign | Aesthetic Neon Sign | Name Neon Sign | Neon sign | Wedding Neon Sign | LED signs | Wall Decor | Home decor] does not contain keyword: persian
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at steps.EtsyAppSteps.user_validates_search_result_contains(EtsyAppSteps.java:48)
+	at ✽.User validates search result contains(file:///C:/Users/18063/IdeaProjects/MindtekCucumberAutomation/src/test/resources/features/EtsySearchFunctionality.feature:11)
+
